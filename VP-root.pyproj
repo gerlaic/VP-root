@@ -22,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="VP_find_replay_salt.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="VP_match_viewer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VP_output_matchIDs_by_leagueID.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="VP_variable_chart.py">

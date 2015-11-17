@@ -1,4 +1,4 @@
-#library
+﻿#library
 import urllib.request, json
 import csv
 
@@ -62,5 +62,5 @@ for key in desired_keys:
         output_detail.append([key,result[key]])
 
 #export
-exportFunc('match_detail',output_detail)
+exportFunc('match_detail'+match_id,output_detail)
 
