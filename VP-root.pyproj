@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="VP_download_replay.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="VP_find_replay_salt.py">
       <SubType>Code</SubType>
     </Compile>
